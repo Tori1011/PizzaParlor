@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  .foodsList {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+	margin:0 auto;
+    margin-top: 40px;
+  }
+
+  .foods {
+    margin:0 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 30%;
+    height: auto;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  img {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+  }
+  .foods p {
+	text-indent: 1cm;
+	padding:15px;
+	margin-top:20px;
+  }
+
+  .foodsList{
+        display: flex;
+    }
+    .left {
+        width: 70%;
+        padding: 50px;
+    }
+
+    .right{
+        width: 30%;
+        padding: 50px;
+    }
+
+@media (max-width: 768px) {
+	.foods {
+		width:45%;
+		height:445px;
+		margin:15px 2.5%;
+		overflow:hidden;
+	}
+}
+@media (max-width: 425px) {
+	.foods {
+		width:95%;
+		margin:15px 2.5%;
+	}
+}
+
+    @media only screen and (max-width: 640px) {
+        .order-column {
+            display: block;
+        }
+        .left {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .right {
+            width: 100;
+            box-sizing: border-box;
+        }
+    }
+</style>
+
+<body>
+  <div class="foodsList">
+    <div class="foods">
+      <img src="BBQ-Chicken1.jpg" alt="">
+      <h3>BBQ Chicken $11.90</h3>
+      <p>Pure Pizza pleasure grilled to perfection. Grilled chicken, green peppers, onions and savoury BBQ sauce.</p>
+    </div>
+    <div class="foods">
+      <img src="hawaiian-pizza2.jpg" alt="">
+      <h3>Hawaiian Pizza $11.90</h3>
+      <p>Classic Hawaiian Pizza combines pizza sauce, cheese, cooked ham, and pineapple.
+        This crowd-pleasing pizza recipe starts with my homemade pizza crust and is finished with a sprinkle of crispy
+        bacon.
+        It’s salty, sweet, cheesy.</p>
+    </div>
+    <div class="foods">
+      <img src="Cheese-pizza3.jpg" alt="">
+      <h3>Cheese Pizza $10.90</h3>
+      <p>Cheddar is a good addition to any pie because its lower elasticity means it doesn't blister as easily as
+        mozzarella.</p>
+    </div>
+    <div class="foods">
+      <img src="Buffalo-Pizza4.jpg" alt="">
+      <h3>Buffalo Pizza $12.99</h3>
+      <p>Grilled chicken breast, hot sauce, and fresh onions with provolone, American, and cheddar cheeses on a cheesy
+        cheddar crust.
+        If you're into hot sauce, the pizza is significantly better if you ask for extra.</p>
+    </div>
+    <div class="foods">
+      <img src="pepperoni-pizza5.jpg" alt="">
+      <h3>Pepperoni Pizza $12.99</h3>
+      <p>Pepperoni is a great starter for any loaded pizza. Add more meats like sausage and ham to make it a meat lover,
+        or add some veggies like bell peppers and mushrooms to make it an ultimate pizza.</p>
+    </div>
+    <div class="foods">
+      <img src="Frutti di Mare pizza6.jpg" alt="">
+      <h3>Frutti di Mare Pizza $14.90</h3>
+      <p>Hoisin sauce is a pie with seafood as the main ingredient and Canned seafood.</p>
+    </div>
+
+  </div>
+</body>
+
+</html>
